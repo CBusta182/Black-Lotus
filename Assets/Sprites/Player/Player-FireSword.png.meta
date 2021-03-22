@@ -1,0 +1,1460 @@
+fileFormatVersion: 2
+guid: b47c0cefdb147824485320ee8365ecdc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4188955406178783891
+    second: Idle 01
+  - first:
+      213: -2307609753760345312
+    second: Idle 02
+  - first:
+      213: -981248971047384492
+    second: Idle 03
+  - first:
+      213: -1545901933393140899
+    second: Idle 04
+  - first:
+      213: 8213347094086800127
+    second: Idle 05
+  - first:
+      213: -5059103831912501405
+    second: Idle 06
+  - first:
+      213: -5821718657898059301
+    second: Run 01
+  - first:
+      213: 1496550190303941284
+    second: Run 02
+  - first:
+      213: -4893209482794706352
+    second: Run 03
+  - first:
+      213: -1264154229424070100
+    second: Run 04
+  - first:
+      213: 3016004491884146976
+    second: Run 05
+  - first:
+      213: -4332189126222791560
+    second: Run 06
+  - first:
+      213: -5627328680107307804
+    second: Run 07
+  - first:
+      213: 2136400887262607199
+    second: Run 08
+  - first:
+      213: -8347562466885057888
+    second: Attack 1 01
+  - first:
+      213: -5384403689154727251
+    second: Attack 1 02
+  - first:
+      213: 3518827620699149626
+    second: Attack 1 03
+  - first:
+      213: 7860715700528909646
+    second: Attack 1 04
+  - first:
+      213: 8797010400812739255
+    second: Attack 1 05
+  - first:
+      213: 4897060516760487770
+    second: Attack 1 06
+  - first:
+      213: 7776611098732557621
+    second: Attack 1 07
+  - first:
+      213: -8714889340757207979
+    second: Attack 1 08
+  - first:
+      213: 5671455101413960859
+    second: Attack 2 01
+  - first:
+      213: -1240425338232291210
+    second: Attack 2 02
+  - first:
+      213: -334431831724763602
+    second: Attack 2 03
+  - first:
+      213: 157919986396120998
+    second: Attack 2 04
+  - first:
+      213: 7404218988943136089
+    second: Death 02
+  - first:
+      213: 1014559343968338725
+    second: Death 01
+  - first:
+      213: 1003163593159854148
+    second: Death 03
+  - first:
+      213: -6991554843958278464
+    second: Death 04
+  - first:
+      213: -8832491540096499396
+    second: Death 05
+  - first:
+      213: -3571151746802368778
+    second: Death 08
+  - first:
+      213: 3631840886587025411
+    second: Death 06
+  - first:
+      213: 4642644978191005277
+    second: Death 09
+  - first:
+      213: -3702709131131442912
+    second: Death 07
+  - first:
+      213: 7843799643643418915
+    second: Death 11
+  - first:
+      213: 3158666380222559943
+    second: Death 11
+  - first:
+      213: 5726183708361295469
+    second: Hurt 01
+  - first:
+      213: 8192343290238979824
+    second: Hurt 02
+  - first:
+      213: 5546689991839359016
+    second: hurt 03
+  - first:
+      213: 6594572943061238400
+    second: hurt 04
+  - first:
+      213: -2562558834448800285
+    second: Jump 01
+  - first:
+      213: -3845562319268974004
+    second: Jump 02
+  - first:
+      213: 6478548409446641677
+    second: Jump 03
+  - first:
+      213: -6481469726152812603
+    second: Jump 04
+  - first:
+      213: -8477471133474814128
+    second: Jump 05
+  - first:
+      213: 4521319220840573483
+    second: Fall 01
+  - first:
+      213: -8178127833454151236
+    second: Fall 02
+  - first:
+      213: -4569780966950916425
+    second: Fall 03
+  - first:
+      213: -615483967810229538
+    second: Attack 3 01
+  - first:
+      213: 2626704304515128931
+    second: Attack 3 02
+  - first:
+      213: -1570891578983228278
+    second: Attack 3 03
+  - first:
+      213: -154115498701825848
+    second: Attack 3 04
+  - first:
+      213: 4743532936814793192
+    second: Attack 3 05
+  - first:
+      213: -7546475823937959966
+    second: Attack 3 06
+  - first:
+      213: -7831464826168666633
+    second: Attack 3 07
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Idle 01
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 399
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6de2ca8047ddd5c0800000000000000
+      internalID: -4188955406178783891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle 02
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 399
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02353eab729b9ffd0800000000000000
+      internalID: -2307609753760345312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle 03
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 399
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45ac08c7247e162f0800000000000000
+      internalID: -981248971047384492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle 04
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 399
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d532382d16adb8ae0800000000000000
+      internalID: -1545901933393140899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle 05
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 399
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff2d7087aababf170800000000000000
+      internalID: 8213347094086800127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle 06
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 399
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36fa9018ed37ac9b0800000000000000
+      internalID: -5059103831912501405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run 01
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 355
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd9e8b5b9b9153fa0800000000000000
+      internalID: -5821718657898059301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run 02
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 358
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a21c911870d4c410800000000000000
+      internalID: 1496550190303941284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run 03
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 357
+        width: 29
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05ad27696e3d71cb0800000000000000
+      internalID: -4893209482794706352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run 04
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 355
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c22eed51d62d47ee0800000000000000
+      internalID: -1264154229424070100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run 05
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 355
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 021bcbb1b100bd920800000000000000
+      internalID: 3016004491884146976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run 06
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 358
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87c3eaf41f8f0e3c0800000000000000
+      internalID: -4332189126222791560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run 07
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 313
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ec06db5166b7e1b0800000000000000
+      internalID: -5627328680107307804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run 08
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 311
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f57fd1fa94506ad10800000000000000
+      internalID: 2136400887262607199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack 1 01
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 311
+        width: 27
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a2cee4e920872c80800000000000000
+      internalID: -8347562466885057888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack 1 02
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 311
+        width: 36
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da231ac5f51c645b0800000000000000
+      internalID: -5384403689154727251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack 1 03
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 311
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a351b95d31365d030800000000000000
+      internalID: 3518827620699149626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack 1 04
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 311
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4d8c52284fd61d60800000000000000
+      internalID: 7860715700528909646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack 1 05
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 267
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ba2cd9d952451a70800000000000000
+      internalID: 8797010400812739255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack 1 06
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 267
+        width: 48
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a578911289ad5f340800000000000000
+      internalID: 4897060516760487770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack 1 07
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 267
+        width: 50
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 535705097921ceb60800000000000000
+      internalID: 7776611098732557621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack 1 08
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 267
+        width: 40
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 554145b615e7e0780800000000000000
+      internalID: -8714889340757207979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack 2 01
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 267
+        width: 23
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9c2b57bd5e05be40800000000000000
+      internalID: 5671455101413960859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack 2 02
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 267
+        width: 55
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67045481abf19cee0800000000000000
+      internalID: -1240425338232291210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack 2 03
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 223
+        width: 51
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e26567c550cdb5bf0800000000000000
+      internalID: -334431831724763602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack 2 04
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 223
+        width: 48
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a74314146b013200800000000000000
+      internalID: 157919986396120998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death 02
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 225
+        width: 31
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9555823f0f111c660800000000000000
+      internalID: 7404218988943136089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death 01
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 223
+        width: 23
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52349c41950741e00800000000000000
+      internalID: 1014559343968338725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death 03
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 224
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 448c5e519f3fbed00800000000000000
+      internalID: 1003163593159854148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death 04
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 225
+        width: 37
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c6843a89e109fe90800000000000000
+      internalID: -6991554843958278464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death 05
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 179
+        width: 39
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c31c7e6adbfac6580800000000000000
+      internalID: -8832491540096499396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death 08
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 179
+        width: 40
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fe34d43868b07ec0800000000000000
+      internalID: -3571151746802368778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death 06
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 179
+        width: 40
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30862c54b04e66230800000000000000
+      internalID: 3631840886587025411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death 09
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 179
+        width: 42
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d567357820dfd6040800000000000000
+      internalID: 4642644978191005277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death 07
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 179
+        width: 40
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 029a05cb9a55d9cc0800000000000000
+      internalID: -3702709131131442912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death 10
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 179
+        width: 39
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32993b8b736cadc60800000000000000
+      internalID: 7843799643643418915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death 11
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 135
+        width: 40
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c672256656d5db20800000000000000
+      internalID: 3158666380222559943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hurt 01
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 135
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d66018f7ebd777f40800000000000000
+      internalID: 5726183708361295469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hurt 02
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 135
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fecfbc41dc01b170800000000000000
+      internalID: 8192343290238979824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hurt 03
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 135
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 820acc2f82dc9fc40800000000000000
+      internalID: 5546689991839359016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hurt 04
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 135
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0824194f621a48b50800000000000000
+      internalID: 6594572943061238400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump 01
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 137
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e5e3ac2156ff6cd0800000000000000
+      internalID: -2562558834448800285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump 02
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 93
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c42785ef171d1aac0800000000000000
+      internalID: -3845562319268974004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump 03
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 93
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d003d3d147d68e950800000000000000
+      internalID: 6478548409446641677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump 04
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 94
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c79636df913d06a0800000000000000
+      internalID: -6481469726152812603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump 05
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 94
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0570b9f6be8f95a80800000000000000
+      internalID: -8477471133474814128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fall 01
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 91
+        width: 21
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2a295a50e3febe30800000000000000
+      internalID: 4521319220840573483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fall 02
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 91
+        width: 21
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb9fa37a014718e80800000000000000
+      internalID: -8178127833454151236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fall 03
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 47
+        width: 21
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7beac8b1c60e490c0800000000000000
+      internalID: -4569780966950916425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack 3 01
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 50
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eda29bd979c5577f0800000000000000
+      internalID: -615483967810229538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack 3 02
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 4
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36e1d98e5ade37420800000000000000
+      internalID: 2626704304515128931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack 3 03
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 4
+        width: 58
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8c5d0e8e62133ae0800000000000000
+      internalID: -1570891578983228278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack 3 04
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 4
+        width: 54
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c8de7d35c87cddf0800000000000000
+      internalID: -154115498701825848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack 3 05
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 4
+        width: 43
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e1163fd21a64d140800000000000000
+      internalID: 4743532936814793192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack 3 06
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 4
+        width: 43
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e7ca189838854790800000000000000
+      internalID: -7546475823937959966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack 3 07
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 4
+        width: 42
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f51045cb3c015390800000000000000
+      internalID: -7831464826168666633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

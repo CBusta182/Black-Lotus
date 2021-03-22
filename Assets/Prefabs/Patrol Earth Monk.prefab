@@ -42,11 +42,11 @@ GameObject:
   - component: {fileID: 3166923185708470618}
   - component: {fileID: 3166923185708470619}
   - component: {fileID: 3166923185708470612}
-  - component: {fileID: 7522072931210992782}
   - component: {fileID: 2142397588}
+  - component: {fileID: 772014179}
   m_Layer: 0
-  m_Name: Patroling Enemy
-  m_TagString: Untagged
+  m_Name: Patrol Earth Monk
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -155,34 +155,15 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 10
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 10
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!114 &7522072931210992782
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3166923185708470614}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a71d443501f5ec741b8713c7e608e4f1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  enemy: {fileID: 3166923185708470612}
-  groundCheck: {fileID: 3166923185102380332}
-  groundLayer:
-    serializedVersion: 2
-    m_Bits: 256
-  speed: 3
-  enemAnim: {fileID: 2142397588}
 --- !u!95 &2142397588
 Animator:
   serializedVersion: 3
@@ -202,3 +183,29 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &772014179
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3166923185708470614}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b739814c6d3a8474f8aefc396086e857, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentHealth: 0
+  maxHealth: 50
+  moveSpeed: 5
+  attackRange: 0
+  distToPlayer: 0
+  isFacingRight: 0
+  isDead: 0
+  enemyRb: {fileID: 3166923185708470612}
+  PatrolEMonkAnim: {fileID: 2142397588}
+  groundCheck: {fileID: 3166923185102380332}
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  wait: 2

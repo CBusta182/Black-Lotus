@@ -25,7 +25,6 @@ public class EnemyAgro : MonoBehaviour
 
     void Update()
     {
-        //distance to player
         float distToPlayer = Vector2.Distance(transform.position, GameObject.FindGameObjectWithTag("Player").transform.position);
         if ((distToPlayer < agroRange))
         {
@@ -49,7 +48,6 @@ public class EnemyAgro : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Bullet"))
         {
-            print("got damaged"); 
             TakeDamage(collision.gameObject.GetComponent<Projectile>().bulletDamage);
         }
     }

@@ -104,7 +104,6 @@ GameObject:
   - component: {fileID: 3746413978072765665}
   - component: {fileID: 4755728577484566022}
   - component: {fileID: 1936407687}
-  - component: {fileID: 1936407689}
   - component: {fileID: 8920414113784114191}
   - component: {fileID: 778020797}
   m_Layer: 0
@@ -266,22 +265,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   slamForce: 20
   slamCd: 2
---- !u!114 &1936407689
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3746413978072765664}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e6f28893f31b2b42adb67ace6d053f5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  fireRate: 0.2
-  firingPoint: {fileID: 3746413977268123309}
-  projectilePrefab: {fileID: 5129185337658052468, guid: c5ade77958f93a04d996c45cd4550821,
-    type: 3}
 --- !u!114 &8920414113784114191
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -294,6 +277,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 154e353b30a69e54e8a13e18e5cb9d25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  hearts:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  life: 4
   lightAttackCoolDown: 0.3
   heavyAttackCoolDown: 0.5
   firingPoint: {fileID: 3746413977268123309}
@@ -301,10 +290,13 @@ MonoBehaviour:
     type: 3}
   HeavyAttackPrefab: {fileID: 8974445013788900296, guid: deaa32e455a54684ba56d8f1dcc3126c,
     type: 3}
+  projectilePrefab: {fileID: 5129185337658052468, guid: c5ade77958f93a04d996c45cd4550821,
+    type: 3}
   combatEnabled: 1
   inputTimer: 0.2
   lightAttackRadius: 1
   lightAttackDamage: 10
+  fireRate: 0.2
   combatAnim: {fileID: 778020797}
   lightAttackHitBoxPos: {fileID: 8799678509746868690}
   whatIsDamageable:
