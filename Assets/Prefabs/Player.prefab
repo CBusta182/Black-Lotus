@@ -170,8 +170,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -4821530343430527414, guid: f42a06c4efeba0a4a9d7574c8aae4d42,
-    type: 3}
+  m_Sprite: {fileID: 738564710840457154, guid: 9168e85114864d040aa9b554447e17d1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -199,7 +198,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.1875, y: 2}
+    oldSize: {x: 1.25, y: 2.0625}
     newSize: {x: 0.55, y: 1.275}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -245,7 +244,6 @@ MonoBehaviour:
   player: {fileID: 3746413978072765665}
   jumpforce: 12
   feet: {fileID: 3746413978022610138}
-  groundCheck: {fileID: 0}
   groundLayer:
     serializedVersion: 2
     m_Bits: 256
@@ -277,12 +275,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 154e353b30a69e54e8a13e18e5cb9d25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hearts:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  life: 4
+  healthBar: {fileID: 2339214150757045273, guid: c2fdaa4a68d159840b0450b389f4a95f,
+    type: 3}
   lightAttackCoolDown: 0.3
   heavyAttackCoolDown: 0.5
   firingPoint: {fileID: 3746413977268123309}
@@ -292,7 +286,6 @@ MonoBehaviour:
     type: 3}
   projectilePrefab: {fileID: 5129185337658052468, guid: c5ade77958f93a04d996c45cd4550821,
     type: 3}
-  combatEnabled: 1
   inputTimer: 0.2
   lightAttackRadius: 1
   lightAttackDamage: 10
@@ -312,7 +305,7 @@ Animator:
   m_GameObject: {fileID: 3746413978072765664}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 4fa6d4d5ae25d004498bd3ff2b6b8aba, type: 2}
+  m_Controller: {fileID: 9100000, guid: fe79de4ddf84fbb44b0125f9934ecc1f, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0

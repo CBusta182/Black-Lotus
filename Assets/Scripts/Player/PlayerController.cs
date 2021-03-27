@@ -9,23 +9,39 @@ public class PlayerController : MonoBehaviour
     private float xMove;
     public float jumpforce;
     public Transform feet;
-    [SerializeField] Collider2D groundCheck;
     [SerializeField] LayerMask groundLayer;
     [SerializeField] Animator playerAnimation;
     [HideInInspector] public bool isFacingRight = true;
     private void Update()
     {
-        if (Math.Abs(xMove) > 0.05f) { playerAnimation.SetBool("isRunning", true); }
-        else { playerAnimation.SetBool("isRunning", false); }
+        if (Math.Abs(xMove) > 0.05f && isGrounded()) { playerAnimation.Play("Fist Run"); }
+        else if (xMove == 0 && isGrounded()){ playerAnimation.Play("Fist Idle"); }
         HandleMovement();
         facingDirection(); 
     }
     private void HandleMovement()
     {
-        xMove = Input.GetAxisRaw("Horizontal");
+        if (Input.GetKey(KeyCode.RightArrow))
+        {
+            xMove = 1; 
+        }
+        else if (Input.GetKey(KeyCode.LeftArrow))
+        {
+            xMove = -1; 
+        }
+        else if (!Input.GetKey(KeyCode.LeftArrow) && !Input.GetKey(KeyCode.RightArrow))
+        {
+            xMove = 0; 
+        }
+
         if (Input.GetKey(KeyCode.UpArrow) && isGrounded())
         {
             player.velocity = new Vector2(player.velocity.x, jumpforce);
+            
+        }
+        if (!isGrounded())
+        {
+            playerAnimation.Play("Fist Jump");
         }
         player.velocity = new Vector2(xMove * moveSpeed, player.velocity.y);
     }
