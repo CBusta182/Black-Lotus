@@ -4,7 +4,7 @@ using UnityEngine;
 
 public abstract class Enemy : MonoBehaviour
 {
-    public float currentHealth, maxHealth, moveSpeed, attackRange, distToPlayer;
+    public float currentHealth, maxHealth, moveSpeed, distToPlayer, xMove;
     public bool isFacingRight, isDead = false;
     protected float knockBackSpeed;  
      
@@ -44,6 +44,19 @@ public abstract class Enemy : MonoBehaviour
             transform.localScale = new Vector2(1, 1);
             enemyAnim.SetBool(runningAnim, false);
             enemyAnim.SetBool(idleAnim, true);
+        }
+    }
+    public void facingDirection()
+    {
+        if (xMove > 0f)
+        {
+            transform.localScale = new Vector3(1f, 1f, 1f);
+            isFacingRight = true;
+        }
+        else if (xMove < 0f)
+        {
+            transform.localScale = new Vector3(-1f, 1f, 1f);
+            isFacingRight = false;
         }
     }
     public void TakeDamage( Animator enemyAnim, string hurtAnim, Rigidbody2D enemyRb, float damage)

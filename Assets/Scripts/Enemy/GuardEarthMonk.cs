@@ -4,26 +4,48 @@ using UnityEngine;
 
 public class GuardEarthMonk : Enemy
 {
-    [SerializeField] float agroRange;
+    [SerializeField] float agroRange, attackRange, coolDown, timeUntilFire;
     [SerializeField] Rigidbody2D enemyRb;
     [SerializeField] Animator guardEMonkAnim;
-    [SerializeField] Vector2 initPos; 
+    [SerializeField] GameObject projectilePrefab;
+    public Transform firingPoint;
+    [SerializeField] Vector2 initPos;
+    [SerializeField] bool attacked; 
     void Start()
     {
         initPos = transform.position; 
         currentHealth = maxHealth;
+        attacked = false;
     }
 
     void Update()
     {
         float distToPlayer = Vector2.Distance(transform.position, GameObject.FindGameObjectWithTag("Player").transform.position);
-        if ((distToPlayer < agroRange))
+        if ((distToPlayer < agroRange) && !(distToPlayer < attackRange))
         {
             ChasePlayer(guardEMonkAnim, "isFloating", "isRunning", transform.position, GameObject.FindGameObjectWithTag("Player").transform.position, enemyRb);
         }
         else if (distToPlayer < attackRange)
         {
-            //attack player
+            if (!isDead)
+            {
+                enemyRb.velocity = Vector2.zero;
+                if (!attacked)
+                {
+                    guardEMonkAnim.SetBool("Attack1", true);
+                    guardEMonkAnim.SetBool("Attack2", false);
+                }
+                else if (attacked)
+                {
+                    guardEMonkAnim.SetBool("Attack1", false);
+                    guardEMonkAnim.SetBool("Attack2", true);
+                }
+            }
+            else
+            {
+                guardEMonkAnim.SetBool("Attack1", false);
+                guardEMonkAnim.SetBool("Attack2", false);
+            }
         }
         else if (distToPlayer > agroRange)
         {
@@ -37,5 +59,15 @@ public class GuardEarthMonk : Enemy
         {
             TakeDamage(guardEMonkAnim, "isHurt", enemyRb, collision.gameObject.GetComponent<Projectile>().bulletDamage);
         }
+    }
+    void Shoot()
+    {
+        //currently isFacingRight is not being set to true
+        float angle = isFacingRight ? 0f : 180f;
+        Instantiate(projectilePrefab, firingPoint.position, Quaternion.Euler(new Vector3(0, 0, angle)));
+    }
+    void switchAttack()
+    {
+        attacked = !attacked; 
     }
 }

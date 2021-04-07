@@ -84,7 +84,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2339214150757045286}
   - component: {fileID: 2339214150757045272}
-  - component: {fileID: 2339214150757045273}
   m_Layer: 5
   m_Name: Health Bar
   m_TagString: Untagged
@@ -163,25 +162,6 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &2339214150757045273
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2339214150757045287}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b12308fa70726404b8b9ab0fd966dc37, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerCombatController: {fileID: 8920414113784114191, guid: 8b1fca0945535974d9a72d1e8ee11439,
-    type: 3}
-  slider: {fileID: 2339214150757045272}
-  healthBarPreFab: {fileID: 2339214150757045287}
-  healthbarPos: {fileID: 0}
-  maxHealth: 100
-  currentHealth: 0
 --- !u!1 &2339214151026853561
 GameObject:
   m_ObjectHideFlags: 0

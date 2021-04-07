@@ -9,13 +9,11 @@ public class PatrolEarthMonk : Enemy
     [SerializeField] RaycastHit2D edgeCheck;
     [SerializeField] Transform groundCheck;
     [SerializeField] LayerMask groundLayer;
-    [SerializeField] float wait = 2f;
+    [SerializeField] float wait = 3f;
     void Start()
     {
         currentHealth = maxHealth;
     }
-
-    // Update is called once per frame
     void Update()
     {
         if(edgecheck(edgeCheck, groundCheck, groundLayer))

@@ -5,17 +5,21 @@ public class PlayerController : MonoBehaviour
 {
     public float moveSpeed;
     public Rigidbody2D player;
-
+    HealthController hc;
     private float xMove;
     public float jumpforce;
     public Transform feet;
     [SerializeField] LayerMask groundLayer;
     [SerializeField] Animator playerAnimation;
     [HideInInspector] public bool isFacingRight = true;
+    private void Start()
+    {
+        hc = gameObject.GetComponent<HealthController>();
+    }
     private void Update()
     {
         if (Math.Abs(xMove) > 0.05f && isGrounded()) { playerAnimation.Play("Fist Run"); }
-        else if (xMove == 0 && isGrounded()){ playerAnimation.Play("Fist Idle"); }
+        else if (xMove == 0 && isGrounded() && !hc.isDead){ playerAnimation.Play("Fist Idle"); }
         HandleMovement();
         facingDirection(); 
     }

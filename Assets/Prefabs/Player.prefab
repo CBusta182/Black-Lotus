@@ -286,6 +286,11 @@ MonoBehaviour:
     type: 3}
   projectilePrefab: {fileID: 5129185337658052468, guid: c5ade77958f93a04d996c45cd4550821,
     type: 3}
+  slider: {fileID: 2339214150757045272, guid: c2fdaa4a68d159840b0450b389f4a95f, type: 3}
+  healthBarPreFab: {fileID: 2339214150757045287, guid: c2fdaa4a68d159840b0450b389f4a95f,
+    type: 3}
+  maxHealth: 100
+  currentHealth: 0
   inputTimer: 0.2
   lightAttackRadius: 1
   lightAttackDamage: 10
