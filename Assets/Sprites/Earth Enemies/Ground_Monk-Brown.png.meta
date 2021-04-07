@@ -1,0 +1,1604 @@
+fileFormatVersion: 2
+guid: 89131c60c3c142346ab6bacfe5e74f97
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7012393339166607454
+    second: Monk-Brown Idle 01
+  - first:
+      213: -198505293756789045
+    second: Monk-Brown Idle 02
+  - first:
+      213: 221577159635060853
+    second: Monk-Brown Idle 03
+  - first:
+      213: 1529291992690053320
+    second: Monk-Brown Idle 04
+  - first:
+      213: -7825855367001907362
+    second: Monk-Brown Idle 05
+  - first:
+      213: -761981084657604279
+    second: Monk-Brown FrontAttk 01
+  - first:
+      213: -2473973388906079245
+    second: Monk-Brown Run 02
+  - first:
+      213: 6577119289227616934
+    second: Monk-Brown Run 03
+  - first:
+      213: -7163218536637459572
+    second: Monk-Brown Run 04
+  - first:
+      213: 6052750836970965268
+    second: Monk-Brown Run 05
+  - first:
+      213: -7174077502563819387
+    second: Monk-Brown Run 06
+  - first:
+      213: 8246163529742471473
+    second: Monk-Brown Run 07
+  - first:
+      213: 5420878659775239456
+    second: Monk-Brown Run 08
+  - first:
+      213: -8710541566829367580
+    second: Monk-Brown Fall 01
+  - first:
+      213: -1636032039418328841
+    second: Monk-Brown Fall 02
+  - first:
+      213: 7359565116959509994
+    second: Monk-Brown FrontAttk 01
+  - first:
+      213: -778653757839715485
+    second: Monk-Brown FrontAttk 02
+  - first:
+      213: -1558887172564718493
+    second: Monk-Brown FrontAttk 03
+  - first:
+      213: 4663913269705721030
+    second: Monk-Brown FrontAttk 04
+  - first:
+      213: -2854237828885007190
+    second: Monk-Brown FrontAttk 05
+  - first:
+      213: 443202571404138029
+    second: Monk-Brown FrontAttk 06
+  - first:
+      213: -7588429410580702118
+    second: Monk-Brown FrontAttk 07
+  - first:
+      213: -2257606021625787497
+    second: Monk-Brown FrontAttk 08
+  - first:
+      213: -1977927527998054460
+    second: Monk-Brown FrontAttk 09
+  - first:
+      213: 1756107896928968546
+    second: Monk-Brown GrndAttk 01
+  - first:
+      213: 2007760768044833495
+    second: Monk-Brown GrndAttk 02
+  - first:
+      213: -272757022464343392
+    second: Monk-Brown GrndAttk 03
+  - first:
+      213: 2231161322366665134
+    second: Monk-Brown GrndAttk 04
+  - first:
+      213: 5902175726732775648
+    second: Monk-Brown GrndAttk 05
+  - first:
+      213: 1357504464236417933
+    second: Monk-Brown GrndAttk 06
+  - first:
+      213: 6403886229131198799
+    second: Monk-Brown GrndAttk 07
+  - first:
+      213: -2295006801764967667
+    second: Monk-Brown GrndAttk 08
+  - first:
+      213: 3826534711647471684
+    second: Monk-Brown Float 01
+  - first:
+      213: 6536229878422359021
+    second: Monk-Brown Float 02
+  - first:
+      213: 5981417542951763516
+    second: Monk-Brown Float 03
+  - first:
+      213: -4941552724067424760
+    second: Monk-Brown Float 04
+  - first:
+      213: 35048110413728896
+    second: Monk-Brown Float 05
+  - first:
+      213: 3376019124941302743
+    second: Monk-Brown Float 06
+  - first:
+      213: -6047362941311655661
+    second: Monk-Brown Float 07
+  - first:
+      213: -7491334451415930184
+    second: Monk-Brown Float 08
+  - first:
+      213: -8355572344403554578
+    second: Monk-Brown Float 09
+  - first:
+      213: 393807856365413622
+    second: Monk-Brown Float 10
+  - first:
+      213: 5352854483413827156
+    second: Monk-Brown Float 11
+  - first:
+      213: -288682014958435385
+    second: Monk-Brown Float 12
+  - first:
+      213: 240412355847050113
+    second: Monk-Brown Guard 01
+  - first:
+      213: -419996022710623260
+    second: Monk-Brown Guard 02
+  - first:
+      213: -1626933232593989539
+    second: Monk-Brown Guard 03
+  - first:
+      213: -7518936701850797803
+    second: Monk-Brown Guard 04
+  - first:
+      213: -6021937488538478829
+    second: Monk-Brown Guard 05
+  - first:
+      213: 307782796948858258
+    second: Monk-Brown Dead 01
+  - first:
+      213: -2927923864068851152
+    second: Monk-Brown Hurt 01
+  - first:
+      213: 1790299402471421946
+    second: Monk-Brown Hurt 02
+  - first:
+      213: -7191565930236343067
+    second: Monk-Brown Hurt 03
+  - first:
+      213: -8592375967023443909
+    second: Monk-Brown Hurt 04
+  - first:
+      213: -3123760815240521383
+    second: Monk-Brown Dead 02
+  - first:
+      213: 2584383222327493793
+    second: Monk-Brown Dead 03
+  - first:
+      213: 4749211569279314299
+    second: Monk-Brown Dead 04
+  - first:
+      213: 180423454760772492
+    second: Monk-Brown Dead 05
+  - first:
+      213: 3940955441531666346
+    second: Monk-Brown Dead 06
+  - first:
+      213: 469060730347940303
+    second: Monk-Brown Dead 07
+  - first:
+      213: 7375789962643162012
+    second: Monk-Brown Dead 08
+  - first:
+      213: 7305727957170216330
+    second: Monk-Brown Dead 09
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Monk-Brown Idle 01
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 186
+        width: 24
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e584756b696015160800000000000000
+      internalID: 7012393339166607454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk-Brown Idle 02
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 186
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bce879fac74ce3df0800000000000000
+      internalID: -198505293756789045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk-Brown Idle 03
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 186
+        width: 24
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5784362b043331300800000000000000
+      internalID: 221577159635060853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk-Brown Idle 04
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 186
+        width: 24
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c0d32ef6f2293510800000000000000
+      internalID: 1529291992690053320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk-Brown Idle 05
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 186
+        width: 24
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5f5442c10af46390800000000000000
+      internalID: -7825855367001907362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk-Brown Run 01
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 186
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 949aa6b9d36ec65f0800000000000000
+      internalID: -761981084657604279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk-Brown Run 02
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 186
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fbdb7a7f4eaaadd0800000000000000
+      internalID: -2473973388906079245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk-Brown Run 03
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 190
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a228cf752f964b50800000000000000
+      internalID: 6577119289227616934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk-Brown Run 04
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 187
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c831b3b71b2279c90800000000000000
+      internalID: -7163218536637459572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk-Brown Run 05
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 185
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4194a9f31d0bff350800000000000000
+      internalID: 6052750836970965268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk-Brown Run 06
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 186
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 580ef84758e807c90800000000000000
+      internalID: -7174077502563819387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk-Brown Run 07
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 190
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 131d41e4a02407270800000000000000
+      internalID: 8246163529742471473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk-Brown Run 08
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 187
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02516668b64da3b40800000000000000
+      internalID: 5420878659775239456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk-Brown Fall 01
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 187
+        width: 26
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ee6cdb6890fd1780800000000000000
+      internalID: -8710541566829367580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk-Brown Fall 02
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 188
+        width: 26
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f800593785ab49e0800000000000000
+      internalID: -1636032039418328841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk-Brown FrontAttk 01
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 142
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aed4ab13b7d622660800000000000000
+      internalID: 7359565116959509994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk-Brown FrontAttk 02
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 141
+        width: 35
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 363d0f0688aa135f0800000000000000
+      internalID: -778653757839715485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk-Brown FrontAttk 03
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 141
+        width: 37
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36ced5a3068bd5ae0800000000000000
+      internalID: -1558887172564718493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk-Brown FrontAttk 04
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 142
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c44a08886c89b040800000000000000
+      internalID: 4663913269705721030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk-Brown FrontAttk 05
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 141
+        width: 13
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa4b3d821d5b368d0800000000000000
+      internalID: -2854237828885007190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk-Brown FrontAttk 06
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 141
+        width: 30
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d265518f362962600800000000000000
+      internalID: 443202571404138029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk-Brown FrontAttk 07
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 140
+        width: 33
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5cd53308ab70b690800000000000000
+      internalID: -7588429410580702118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk-Brown FrontAttk 08
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 141
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79b463ed84f5ba0e0800000000000000
+      internalID: -2257606021625787497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk-Brown FrontAttk 09
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 140
+        width: 13
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cf953e846dfc84e0800000000000000
+      internalID: -1977927527998054460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk-Brown GrndAttk 01
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 144
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26f95b7f3d2fe5810800000000000000
+      internalID: 1756107896928968546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk-Brown GrndAttk 02
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 149
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7da174de7cffcdb10800000000000000
+      internalID: 2007760768044833495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk-Brown GrndAttk 03
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 149
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a20506eee8f63cf0800000000000000
+      internalID: -272757022464343392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk-Brown GrndAttk 04
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 100
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea18148c66da6fe10800000000000000
+      internalID: 2231161322366665134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk-Brown GrndAttk 05
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 100
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e017d96d8db8e150800000000000000
+      internalID: 5902175726732775648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk-Brown GrndAttk 06
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 102
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8391db2e13d6d210800000000000000
+      internalID: 1357504464236417933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk-Brown GrndAttk 07
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 103
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f41816d989c2fd850800000000000000
+      internalID: 6403886229131198799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk-Brown GrndAttk 08
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 104
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0b91b7297f7620e0800000000000000
+      internalID: -2295006801764967667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk-Brown Float 01
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 50
+        width: 20
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4480370eb059a1530800000000000000
+      internalID: 3826534711647471684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk-Brown Float 02
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 50
+        width: 22
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: debc8a9a17a55ba50800000000000000
+      internalID: 6536229878422359021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk-Brown Float 03
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 48
+        width: 21
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3efdec7093420350800000000000000
+      internalID: 5981417542951763516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk-Brown Float 04
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 49
+        width: 16
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 806e81b9af31c6bb0800000000000000
+      internalID: -4941552724067424760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk-Brown Float 05
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 48
+        width: 20
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08c424b12148c7000800000000000000
+      internalID: 35048110413728896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk-Brown Float 06
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 49
+        width: 17
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7db2d09d1870ade20800000000000000
+      internalID: 3376019124941302743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk-Brown Float 07
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 48
+        width: 17
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 311e147f173731ca0800000000000000
+      internalID: -6047362941311655661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk-Brown Float 08
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 49
+        width: 17
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ba25b9d10f690890800000000000000
+      internalID: -7491334451415930184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk-Brown Float 09
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 49
+        width: 17
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eee8fb4f83b0b0c80800000000000000
+      internalID: -8355572344403554578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk-Brown Float 10
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 48
+        width: 17
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f42b6ca826177500800000000000000
+      internalID: 393807856365413622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk-Brown Float 11
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 49
+        width: 17
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45efc32cac8294a40800000000000000
+      internalID: 5352854483413827156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk-Brown Float 12
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 49
+        width: 16
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c3cb55ac356efbf0800000000000000
+      internalID: -288682014958435385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk-Brown Guard 01
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 49
+        width: 20
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 183d0ed83cd165300800000000000000
+      internalID: 240412355847050113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk-Brown Guard 02
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 47
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e3a143b7dfdb2af0800000000000000
+      internalID: -419996022710623260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk-Brown Guard 03
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 49
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5015f548d8fb69e0800000000000000
+      internalID: -1626933232593989539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk-Brown Guard 04
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 49
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 519398d18ee57a790800000000000000
+      internalID: -7518936701850797803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk-Brown Guard 05
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 48
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3175e0082c7cd6ca0800000000000000
+      internalID: -6021937488538478829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk-Brown Dead 01
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 2
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 295ec18b2d6754400800000000000000
+      internalID: 307782796948858258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk-Brown Hurt 01
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 2
+        width: 23
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03a79c822cced57d0800000000000000
+      internalID: -2927923864068851152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk-Brown Hurt 02
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 1
+        width: 23
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af737e532db68d810800000000000000
+      internalID: 1790299402471421946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk-Brown Hurt 03
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 1
+        width: 23
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ec067593ec623c90800000000000000
+      internalID: -7191565930236343067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk-Brown Hurt 04
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 2
+        width: 23
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b30d6f4159fb1c880800000000000000
+      internalID: -8592375967023443909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk-Brown Dead 02
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 2
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 959dd44c61c26a4d0800000000000000
+      internalID: -3123760815240521383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk-Brown Dead 03
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 3
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a44f4a19d29dd320800000000000000
+      internalID: 2584383222327493793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk-Brown Dead 04
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 2
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b79a11682c698e140800000000000000
+      internalID: 4749211569279314299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk-Brown Dead 05
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 2
+        width: 20
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c832a2a1d2ef08200800000000000000
+      internalID: 180423454760772492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk-Brown Dead 06
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 1
+        width: 20
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaf3320181611b630800000000000000
+      internalID: 3940955441531666346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk-Brown Dead 07
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 4
+        width: 20
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc96972cf30728600800000000000000
+      internalID: 469060730347940303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk-Brown Dead 08
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 3
+        width: 20
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c93cc3574e11c5660800000000000000
+      internalID: 7375789962643162012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk-Brown Dead 09
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 5
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8d55c0aed8236560800000000000000
+      internalID: 7305727957170216330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

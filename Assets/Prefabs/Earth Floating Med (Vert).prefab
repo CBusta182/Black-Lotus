@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 4972430253552937680}
   - component: {fileID: 4972430253552937681}
   m_Layer: 8
-  m_Name: Earth Floating Med
+  m_Name: Earth Floating Med (Vert)
   m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -96,8 +96,8 @@ Rigidbody2D:
   m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
+  m_UseAutoMass: 1
+  m_Mass: 4.9008894
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 0
