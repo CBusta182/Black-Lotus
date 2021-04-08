@@ -9,17 +9,38 @@ public class EarthTurtle : Enemy
     [SerializeField] RaycastHit2D edgeCheck;
     [SerializeField] Transform groundCheck;
     [SerializeField] LayerMask groundLayer;
-    [SerializeField] float wait = 3f;
+    [SerializeField] float wait = 1, agroRange;
+    public float spikeDamage = 5; 
     void Start()
     {
         currentHealth = maxHealth;
     }
     void Update()
     {
-        if (edgecheck(edgeCheck, groundCheck, groundLayer))
+        float distToPlayer = Vector2.Distance(transform.position, GameObject.FindGameObjectWithTag("Player").transform.position);
+        if (distToPlayer > agroRange)
         {
-            Patrol(turtleAnim, "isWalking", turtleRB, moveSpeed, isFacingRight);
+            turtleAnim.SetBool("tucked", false);
+            if (edgecheck(edgeCheck, groundCheck, groundLayer))
+            {
+                Patrol(turtleAnim, "isWalking", turtleRB, moveSpeed, isFacingRight);
+            }
+            else
+            {
+                StopPatrol(turtleAnim, "isWalking", "idle", turtleRB, ref wait, ref isFacingRight); 
+            }
         }
+        else if (distToPlayer < agroRange)
+        {
+            turtleAnim.SetBool("isWalking", false);
+            turtleAnim.SetBool("tuck", true);
+            turtleRB.velocity = Vector2.zero; 
+        }
+    }
+    public void tucked()
+    {
+        turtleAnim.SetBool("tuck", false);
+        turtleAnim.SetBool("tucked", true); 
     }
 
 }

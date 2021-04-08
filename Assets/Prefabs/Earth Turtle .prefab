@@ -24,7 +24,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2065201357}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.36, y: -1.22, z: 0}
+  m_LocalPosition: {x: -1.25, y: -0.94, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2338664622792056304}
@@ -46,7 +46,7 @@ GameObject:
   - component: {fileID: 6478927363463750406}
   m_Layer: 0
   m_Name: 'Earth Turtle '
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -81,6 +81,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -183,6 +184,8 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 256
   wait: 0
+  agroRange: 8
+  spikeDamage: 5
 --- !u!61 &6478927363463750406
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -196,16 +199,16 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.2589264, y: -0.40361953}
+  m_Offset: {x: 0.25892448, y: -0.39841127}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 3.2, y: 3.2}
+    oldSize: {x: 2.6666667, y: 2.6666667}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.3775291, y: 1.9967563}
+  m_Size: {x: 1.9817085, y: 1.5280237}
   m_EdgeRadius: 0

@@ -52,11 +52,6 @@ public class PlayerCombatController : MonoBehaviour
         Instantiate(projectilePrefab, firingPoint.position, Quaternion.Euler(new Vector3(0, 0, angle)));
     }
 
-
-    private void OnDrawGizmos()
-    {
-        Gizmos.DrawWireSphere(lightAttackHitBoxPos.position, lightAttackRadius);
-    }
     void SpawnLightAttack()
     {
         float angle = pc.isFacingRight ? 0f : 180f;
