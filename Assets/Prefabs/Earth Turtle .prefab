@@ -185,7 +185,7 @@ MonoBehaviour:
     m_Bits: 256
   wait: 0
   agroRange: 8
-  spikeDamage: 5
+  spikeDamage: 10
 --- !u!61 &6478927363463750406
 BoxCollider2D:
   m_ObjectHideFlags: 0

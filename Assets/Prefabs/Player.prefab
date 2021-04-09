@@ -106,6 +106,7 @@ GameObject:
   - component: {fileID: 1936407687}
   - component: {fileID: 8920414113784114191}
   - component: {fileID: 778020797}
+  - component: {fileID: 240798744}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -146,6 +147,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -219,7 +221,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 0.0001
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 2
@@ -242,6 +244,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 5
   player: {fileID: 3746413978072765665}
+  hc: {fileID: 240798744}
+  pcc: {fileID: 8920414113784114191}
   jumpforce: 12
   feet: {fileID: 3746413978022610138}
   groundLayer:
@@ -249,6 +253,7 @@ MonoBehaviour:
     m_Bits: 256
   playerAnimation: {fileID: 778020797}
   isFacingRight: 1
+  inCombat: 0
 --- !u!114 &1936407687
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -275,8 +280,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 154e353b30a69e54e8a13e18e5cb9d25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthBar: {fileID: 2339214150757045273, guid: c2fdaa4a68d159840b0450b389f4a95f,
-    type: 3}
   lightAttackCoolDown: 0.3
   heavyAttackCoolDown: 0.5
   firingPoint: {fileID: 3746413977268123309}
@@ -286,11 +289,6 @@ MonoBehaviour:
     type: 3}
   projectilePrefab: {fileID: 5129185337658052468, guid: c5ade77958f93a04d996c45cd4550821,
     type: 3}
-  slider: {fileID: 2339214150757045272, guid: c2fdaa4a68d159840b0450b389f4a95f, type: 3}
-  healthBarPreFab: {fileID: 2339214150757045287, guid: c2fdaa4a68d159840b0450b389f4a95f,
-    type: 3}
-  maxHealth: 100
-  currentHealth: 0
   inputTimer: 0.2
   lightAttackRadius: 1
   lightAttackDamage: 10
@@ -319,6 +317,27 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &240798744
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3746413978072765664}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4a8121345141bc469842d4339b69c89, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 50
+  currentHealth: 0
+  knockbackForce: 20
+  slider: {fileID: 0}
+  anim: {fileID: 778020797}
+  isDead: 0
+  isHurt: 0
+  rb: {fileID: 3746413978072765665}
+  pc: {fileID: 4755728577484566022}
 --- !u!1 &3809904292435318402
 GameObject:
   m_ObjectHideFlags: 0

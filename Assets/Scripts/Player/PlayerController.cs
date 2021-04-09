@@ -5,22 +5,23 @@ public class PlayerController : MonoBehaviour
 {
     public float moveSpeed;
     public Rigidbody2D player;
-    HealthController hc;
+    [SerializeField] HealthController hc;
+    [SerializeField] PlayerCombatController pcc;
     private float xMove;
     public float jumpforce;
     public Transform feet;
     [SerializeField] LayerMask groundLayer;
     [SerializeField] Animator playerAnimation;
-    [HideInInspector] public bool isFacingRight = true;
-    private void Start()
-    {
-        hc = gameObject.GetComponent<HealthController>();
-    }
+    public bool isFacingRight = true;
+    public bool inCombat; 
     private void Update()
     {
-        if (Math.Abs(xMove) > 0.05f && isGrounded()) { playerAnimation.Play("Fist Run"); }
-        else if (xMove == 0 && isGrounded() && !hc.isDead){ playerAnimation.Play("Fist Idle"); }
-        HandleMovement();
+        if (Math.Abs(xMove) > 0.05f && isGrounded() && !CombatCheck()) { playerAnimation.Play("Fist Run"); }
+        else if (xMove == 0 && isGrounded() && !CombatCheck()) { playerAnimation.Play("Fist Idle"); }
+        if (!CombatCheck()) 
+        {
+            HandleMovement();
+        }
         facingDirection(); 
     }
     private void HandleMovement()
@@ -49,7 +50,18 @@ public class PlayerController : MonoBehaviour
         }
         player.velocity = new Vector2(xMove * moveSpeed, player.velocity.y);
     }
-
+    public bool CombatCheck()
+    {
+        if(hc.isDead || hc.isHurt)
+        {
+            inCombat = true; 
+        }
+        else
+        {
+            inCombat = false; 
+        }
+        return inCombat; 
+    }
     public void facingDirection()
     {
         if (xMove > 0f)

@@ -6,25 +6,30 @@ using UnityEngine.UI;
 
 public class HealthController : MonoBehaviour
 {
-    public float maxHealth = 100, currentHealth;
+    public float maxHealth = 100, currentHealth, knockbackForce;
     public Slider slider;
     [SerializeField] Animator anim;
-    public bool isDead; 
+    public bool isDead, isHurt;
+    [SerializeField] Rigidbody2D rb;
+    [SerializeField] PlayerController pc; 
     void Start()
     {
         isDead = false; 
         currentHealth = maxHealth;
         SetMaxHealth(maxHealth);
     }
-
-    // Update is called once per frame
     void Update()
     {
+        if (isHurt)
+        {
+            anim.Play("Fist Hurt");
+            knockBack();
+        }
         checkHealth();
     }
     public void checkHealth()
     {
-        if (slider.value < 1)
+        if (currentHealth < 1)
         {
             isDead = true;
             anim.Play("Fist Death");
@@ -49,6 +54,7 @@ public class HealthController : MonoBehaviour
     {
         if ((collision.gameObject.CompareTag("Bullet") || collision.gameObject.CompareTag("Spike")) && !isDead)
         {
+            if(currentHealth > 10) { isHurt = true; }
             if (collision.gameObject.CompareTag("Bullet"))
             {
                 currentHealth -= collision.gameObject.GetComponent<Projectile>().bulletDamage;
@@ -59,11 +65,18 @@ public class HealthController : MonoBehaviour
             }
             SetHealth(currentHealth);
         }
+         
     }
-    //public void TakeDamage(Animator enemyAnim, string hurtAnim, Rigidbody2D enemyRb, float damage)
-    //{
-    //    enemyRb.velocity = Vector2.zero;
-    //    enemyAnim.SetTrigger(hurtAnim);
-    //    currentHealth -= damage;
-    //}
+    public void endKnockBack(){isHurt = false; }
+    public void knockBack()
+    {
+        if (pc.isFacingRight)
+        {
+            rb.AddForce(new Vector2(-knockbackForce, 0));
+        }
+        else
+        {
+            rb.AddForce(new Vector2(knockbackForce, 0));
+        }
+    }
 }
