@@ -23,7 +23,7 @@ public class GuardEarthMonk : Enemy
         float distToPlayer = Vector2.Distance(transform.position, GameObject.FindGameObjectWithTag("Player").transform.position);
         if ((distToPlayer < agroRange) && !(distToPlayer < attackRange))
         {
-            ChasePlayer(guardEMonkAnim, "isFloating", "isRunning", transform.position, GameObject.FindGameObjectWithTag("Player").transform.position, enemyRb);
+            ChasePlayer(guardEMonkAnim, "isRunning", transform.position, GameObject.FindGameObjectWithTag("Player").transform.position, enemyRb);
         }
         else if (distToPlayer < attackRange)
         {
@@ -49,7 +49,7 @@ public class GuardEarthMonk : Enemy
         }
         else if (distToPlayer > agroRange)
         {
-            StopChasePlayer(guardEMonkAnim, "isFloating", "isRunning", transform.position, initPos, enemyRb);
+            StopChasePlayer(guardEMonkAnim, "isRunning", transform.position, initPos, enemyRb);
         }
         HealthCheck(enemyRb, guardEMonkAnim, "Monk-Death");
     }

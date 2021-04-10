@@ -22,7 +22,7 @@ public class PatrolEarthMonk : Enemy
         }
         else
         {
-            StopPatrol(PatrolEMonkAnim, "isRunning", "isFloating", enemyRb, ref wait, ref isFacingRight);
+            StopPatrol(PatrolEMonkAnim, "isRunning", enemyRb, ref wait, ref isFacingRight);
         }
         HealthCheck(enemyRb, PatrolEMonkAnim, "Monk-Death");
     }

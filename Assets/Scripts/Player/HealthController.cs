@@ -25,12 +25,17 @@ public class HealthController : MonoBehaviour
             anim.Play("Fist Hurt");
             knockBack();
         }
+        if (isDead)
+        {
+            knockBack(); 
+        }
         checkHealth();
     }
     public void checkHealth()
     {
         if (currentHealth < 1)
         {
+            //knockBack();
             isDead = true;
             anim.Play("Fist Death");
             currentHealth = maxHealth;

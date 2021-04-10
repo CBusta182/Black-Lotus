@@ -27,7 +27,7 @@ public class EarthTurtle : Enemy
             }
             else
             {
-                StopPatrol(turtleAnim, "isWalking", "idle", turtleRB, ref wait, ref isFacingRight); 
+                StopPatrol(turtleAnim, "isWalking", turtleRB, ref wait, ref isFacingRight); 
             }
         }
         else if (distToPlayer < agroRange)

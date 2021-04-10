@@ -8,9 +8,8 @@ public abstract class Enemy : MonoBehaviour
     public bool isFacingRight, isDead = false;
     protected float knockBackSpeed;  
      
-    public void ChasePlayer(Animator enemyAnim, string idleAnim, string runningAnim, Vector2 enemyPos, Vector2 targetPos, Rigidbody2D enemyRb)
+    public void ChasePlayer(Animator enemyAnim, string runningAnim, Vector2 enemyPos, Vector2 targetPos, Rigidbody2D enemyRb)
     {
-        enemyAnim.SetBool(idleAnim, false);
         enemyAnim.SetBool(runningAnim, true);
         //if the enemy is on the left of the player
         if (enemyPos.x < targetPos.x)
@@ -25,7 +24,7 @@ public abstract class Enemy : MonoBehaviour
             transform.localScale = new Vector2(-1, 1);
         }
     }
-    public void StopChasePlayer(Animator enemyAnim, string idleAnim, string runningAnim, Vector2 enemyPos, Vector2 initPos, Rigidbody2D enemyRb)
+    public void StopChasePlayer(Animator enemyAnim, string runningAnim, Vector2 enemyPos, Vector2 initPos, Rigidbody2D enemyRb)
     {
         if (Mathf.Floor(enemyPos.x) < Mathf.Floor(initPos.x))
         {
@@ -43,7 +42,6 @@ public abstract class Enemy : MonoBehaviour
             enemyRb.velocity = Vector2.zero;
             transform.localScale = new Vector2(1, 1);
             enemyAnim.SetBool(runningAnim, false);
-            enemyAnim.SetBool(idleAnim, true);
         }
     }
     public void facingDirection()
@@ -96,10 +94,9 @@ public abstract class Enemy : MonoBehaviour
             enemyRb.velocity = new Vector2(-speed, enemyRb.velocity.y);
         }
     }
-    public void StopPatrol(Animator enemyAnim, string runningAnim, string idleAnim, Rigidbody2D enemyRb, ref float wait, ref bool isFacingRight)
+    public void StopPatrol(Animator enemyAnim, string runningAnim, Rigidbody2D enemyRb, ref float wait, ref bool isFacingRight)
     {
         enemyAnim.SetBool(runningAnim, false);
-        enemyAnim.SetBool(idleAnim, true);
         enemyRb.velocity = Vector2.zero;
         if (wait > 0)
         {
@@ -110,7 +107,6 @@ public abstract class Enemy : MonoBehaviour
             isFacingRight = !isFacingRight;
             transform.localScale = new Vector3(-transform.localScale.x, 1f, 1f);
             wait = 2f;
-            enemyAnim.SetBool(idleAnim, false);
         }
     }
 }
