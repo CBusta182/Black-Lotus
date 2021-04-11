@@ -12,7 +12,6 @@ public class EarthWisp : Enemy
     [SerializeField] float wait = 1, agroRange, timeUntilFire;
     private float fireRate; 
     [SerializeField] GameObject projectilePrefab;
-    bool isHurt, isDead; 
     void Start()
     {
         fireRate = timeUntilFire;

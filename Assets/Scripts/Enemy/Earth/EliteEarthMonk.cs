@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GuardEarthMonk : Enemy
+public class EliteEarthMonk : Enemy
 {
     [SerializeField] float agroRange, attackRange, coolDown, timeUntilFire;
     [SerializeField] Rigidbody2D enemyRb;

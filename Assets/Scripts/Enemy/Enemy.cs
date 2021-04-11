@@ -5,7 +5,7 @@ using UnityEngine;
 public abstract class Enemy : MonoBehaviour
 {
     public float currentHealth, maxHealth, moveSpeed, distToPlayer, xMove;
-    public bool isFacingRight, isDead = false;
+    public bool isFacingRight, isDead = false, isHurt = false;
     protected float knockBackSpeed;  
      
     public void ChasePlayer(Animator enemyAnim, string runningAnim, Vector2 enemyPos, Vector2 targetPos, Rigidbody2D enemyRb)
@@ -63,10 +63,6 @@ public abstract class Enemy : MonoBehaviour
         enemyAnim.SetTrigger(hurtAnim);
         currentHealth -= damage;
     }
-    public virtual void Death()
-    {
-        Destroy(gameObject);
-    }
     public virtual void HealthCheck(Rigidbody2D enemyRb, Animator enemyAnim, string deathAnim)
     {
         if (currentHealth <= 0)
@@ -76,7 +72,6 @@ public abstract class Enemy : MonoBehaviour
             enemyAnim.Play(deathAnim);
         }
     }
-
     public bool edgecheck(RaycastHit2D edgeCheck, Transform groundCheck, LayerMask groundLayer)
     {
         edgeCheck = Physics2D.Raycast(groundCheck.position, -transform.up, 1f, groundLayer);
