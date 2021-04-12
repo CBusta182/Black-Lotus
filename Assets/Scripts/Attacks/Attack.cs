@@ -2,10 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class LightAttack : MonoBehaviour
+public class Attack : MonoBehaviour
 {
     public float horizontalSpeed = 2f;
-    public float lightAttackDamage = 15f;
     [SerializeField] float despawnTime; 
     [SerializeField] Rigidbody2D lightAttack;
     private void Start()
@@ -19,10 +18,7 @@ public class LightAttack : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Enemy"))
-        {
-            Destroy(gameObject);
-        }
+        Destroy(gameObject);
     }
     IEnumerator DespawnObject()
     {

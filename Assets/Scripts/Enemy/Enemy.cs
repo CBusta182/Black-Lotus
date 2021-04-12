@@ -60,7 +60,7 @@ public abstract class Enemy : MonoBehaviour
     public void TakeDamage( Animator enemyAnim, string hurtAnim, Rigidbody2D enemyRb, float damage)
     {
         enemyRb.velocity = Vector2.zero;
-        enemyAnim.SetTrigger(hurtAnim);
+        enemyAnim.Play(hurtAnim);
         currentHealth -= damage;
     }
     public virtual void HealthCheck(Rigidbody2D enemyRb, Animator enemyAnim, string deathAnim)

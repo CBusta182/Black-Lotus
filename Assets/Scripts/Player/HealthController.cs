@@ -57,17 +57,10 @@ public class HealthController : MonoBehaviour
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if ((collision.gameObject.CompareTag("Bullet") || collision.gameObject.CompareTag("Spike")) && !isDead)
+        if ((collision.gameObject.CompareTag("Bullet") || collision.gameObject.CompareTag("Spike") || collision.gameObject.CompareTag("Attack")) && !isDead)
         {
             if(currentHealth > 10) { isHurt = true; }
-            if (collision.gameObject.CompareTag("Bullet"))
-            {
-                currentHealth -= collision.gameObject.GetComponent<Projectile>().bulletDamage;
-            }
-            else if (collision.gameObject.CompareTag("Spike"))
-            {
-                currentHealth -= collision.gameObject.GetComponent<EarthTurtle>().spikeDamage;
-            }
+            currentHealth -= 10;
             SetHealth(currentHealth);
         }
          

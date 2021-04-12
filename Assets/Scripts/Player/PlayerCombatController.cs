@@ -22,8 +22,6 @@ public class PlayerCombatController : MonoBehaviour
         combatAnim = GetComponent<Animator>();
         pc = gameObject.GetComponent<PlayerController>();
     }
-
-    // Update is called once per frame
     void Update()
     {
         

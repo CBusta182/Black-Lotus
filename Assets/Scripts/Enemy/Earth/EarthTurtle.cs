@@ -10,7 +10,6 @@ public class EarthTurtle : Enemy
     [SerializeField] Transform groundCheck;
     [SerializeField] LayerMask groundLayer;
     [SerializeField] float wait = 1, agroRange;
-    public float spikeDamage = 5; 
     void Start()
     {
         currentHealth = maxHealth;

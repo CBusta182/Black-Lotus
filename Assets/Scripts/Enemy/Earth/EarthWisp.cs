@@ -64,7 +64,7 @@ public class EarthWisp : Enemy
         if (collision.gameObject.CompareTag("Bullet") && !isDead)
         {
             isHurt = true; 
-            TakeDamage(wispAnim, "isHurt", wispRB, collision.gameObject.GetComponent<Projectile>().bulletDamage);
+            TakeDamage(wispAnim, "Hurt", wispRB, 10);
         }
     }
     public void Shoot()

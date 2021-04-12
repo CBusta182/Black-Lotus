@@ -5,7 +5,6 @@ using UnityEngine;
 public class Projectile : MonoBehaviour
 {
     public float bulletSpeed = 15f;
-    public float bulletDamage = 10f;
     [SerializeField] Rigidbody2D projectile;
 
     private void FixedUpdate()

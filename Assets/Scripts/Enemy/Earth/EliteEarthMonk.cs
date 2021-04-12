@@ -57,7 +57,7 @@ public class EliteEarthMonk : Enemy
     {
         if (collision.gameObject.CompareTag("Bullet") && !isDead)
         {
-            TakeDamage(guardEMonkAnim, "isHurt", enemyRb, collision.gameObject.GetComponent<Projectile>().bulletDamage);
+            TakeDamage(guardEMonkAnim, "isHurt", enemyRb, 10);
         }
     }
     void Shoot()
