@@ -25,18 +25,19 @@ public class PlayerCombatController : MonoBehaviour
     void Update()
     {
         
-        if (Input.GetKey(KeyCode.Q) && timeUntilFire < Time.time)
+        if (Input.GetKey(KeyCode.Z) && timeUntilFire < Time.time)
         {
             Shoot();
+            combatAnim.Play("Fist Attack 2");
             timeUntilFire = Time.time + fireRate;
         }
-        if (Input.GetKey(KeyCode.W) && timeUntilLightAttack < Time.time)
+        if (Input.GetKey(KeyCode.X) && timeUntilLightAttack < Time.time)
         {
             SpawnLightAttack();
             timeUntilLightAttack = Time.time + lightAttackCoolDown;
             //make a combat active bool so the idle animation does not try to fight it 
             //make a way for the attacks to link together
-            combatAnim.Play("Fist Attack 1"); 
+            combatAnim.Play("Fist Attack"); 
         }
         if (Input.GetKey(KeyCode.E) && timeUntlHeavyAttack < Time.time)
         {
