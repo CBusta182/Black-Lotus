@@ -10,11 +10,11 @@ public class EarthWisp : Enemy
     [SerializeField] Transform groundCheck, firingPoint;
     [SerializeField] LayerMask groundLayer;
     [SerializeField] float wait = 1, agroRange, timeUntilFire;
-    private float fireRate; 
+    public float fireRate; 
     [SerializeField] GameObject projectilePrefab;
     void Start()
     {
-        fireRate = timeUntilFire;
+        timeUntilFire = fireRate;
         currentHealth = maxHealth;
     }
 

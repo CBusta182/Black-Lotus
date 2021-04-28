@@ -6,27 +6,30 @@ public class FloatingIsland : MonoBehaviour
 {
     [SerializeField] Rigidbody2D islandRb;
     [SerializeField] Vector2 initalPos, finalPos;
+    private GameObject target; 
     public float moveSpeed;
+    //public Vector3 velocity, offset; 
     public string type; 
 
     void Start()
     {
+        target = null; 
         initalPos = transform.position;
-        if ((Mathf.Floor(initalPos.x) < finalPos.x && Mathf.Floor(initalPos.y) < finalPos.y) || (Mathf.Floor(initalPos.x) < finalPos.x && Mathf.Floor(initalPos.y) < finalPos.y))
+        if (initalPos.x < finalPos.x && initalPos.y < finalPos.y || (initalPos.x < finalPos.x && initalPos.y < finalPos.y))
         {
             type = "Diagonal";
         }
-        else if (Mathf.Floor(initalPos.x) < finalPos.x)
+        else if (initalPos.x < finalPos.x)
         {
             type = "Horizontal";
         }
-        else if (Mathf.Floor(initalPos.y) < finalPos.y)
+        else if (initalPos.y < finalPos.y)
         {
             type = "Vertical";
         }
     }
 
-    void Update()
+    void FixedUpdate()
     {
         switch (type)
         {
@@ -43,52 +46,52 @@ public class FloatingIsland : MonoBehaviour
                 print("Not a valid movement");
                 break;
         }
-        //if (type == "Diagonal")
-        //{
-        //    MoveDiagonally();
-        //}
-        //else if (type == "Horizontal")
-        //{
-        //    MoveHorizontally();
-        //}
-        //else if (type == "Vertical")
-        //{
-        //    MoveVertically(); 
-        //}
-        //else
-        //{
-        //    print("Not a valid movement");
-        //}
     }
+    //void OnTriggerStay2D(Collider2D col)
+    //{
+    //    target = col.gameObject;
+    //    offset = target.transform.position - transform.position;
+    //}
+    //void OnTriggerExit2D(Collider2D col)
+    //{
+    //    target = null;
+    //}
+    //void LateUpdate()
+    //{
+    //    if (target != null)
+    //    {
+    //        target.transform.position = transform.position + offset;
+    //    }
+    //}
     public void MoveDiagonally()
     {
-        if (Mathf.Floor(transform.position.x) <= initalPos.x && Mathf.Floor(transform.position.y) <= initalPos.y)
+        if (transform.position.x <= initalPos.x && transform.position.y <= initalPos.y)
         {
             islandRb.velocity = new Vector2(moveSpeed, moveSpeed);
         }
-        else if (Mathf.Floor(transform.position.x) >= finalPos.x && Mathf.Floor(transform.position.y) >= finalPos.y)
+        else if (transform.position.x >= finalPos.x && transform.position.y >= finalPos.y)
         {
             islandRb.velocity = new Vector2(-moveSpeed, -moveSpeed);
         }
     }
     public void MoveHorizontally()
     {
-        if (Mathf.Floor(transform.position.x) <= initalPos.x)
+        if (transform.position.x <= initalPos.x)
         {
             islandRb.velocity = new Vector2(moveSpeed, 0);
         }
-        else if (Mathf.Floor(transform.position.x) >= finalPos.x)
+        else if (transform.position.x >= finalPos.x)
         {
             islandRb.velocity = new Vector2(-moveSpeed, 0);
         }
     }
     public void MoveVertically()
     {
-        if (Mathf.Floor(transform.position.y) <= initalPos.y)
+        if (transform.position.y <= initalPos.y)
         {
             islandRb.velocity = new Vector2(0, moveSpeed);
         }
-        else if (Mathf.Floor(transform.position.y)>= finalPos.y)
+        else if (transform.position.y>= finalPos.y)
         {
             islandRb.velocity = new Vector2(0, -moveSpeed);
         }

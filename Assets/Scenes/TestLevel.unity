@@ -10815,38 +10815,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 547983215, guid: 7dd55e25964c5eb43b572e9907d39f61, type: 3}
-      propertyPath: m_Icon
-      value: 
-      objectReference: {fileID: 3306451490063965843, guid: 0000000000000000d000000000000000,
-        type: 0}
-    - target: {fileID: 547983216, guid: 7dd55e25964c5eb43b572e9907d39f61, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 1.24
-      objectReference: {fileID: 0}
-    - target: {fileID: 547983216, guid: 7dd55e25964c5eb43b572e9907d39f61, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.34
-      objectReference: {fileID: 0}
-    - target: {fileID: 3166923185708470612, guid: 7dd55e25964c5eb43b572e9907d39f61,
-        type: 3}
-      propertyPath: m_Mass
-      value: 2.0793293
-      objectReference: {fileID: 0}
-    - target: {fileID: 3166923185708470612, guid: 7dd55e25964c5eb43b572e9907d39f61,
-        type: 3}
-      propertyPath: m_UseAutoMass
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 3166923185708470614, guid: 7dd55e25964c5eb43b572e9907d39f61,
         type: 3}
       propertyPath: m_Name
       value: Earth Monk Basic
-      objectReference: {fileID: 0}
-    - target: {fileID: 3166923185708470614, guid: 7dd55e25964c5eb43b572e9907d39f61,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3166923185708470617, guid: 7dd55e25964c5eb43b572e9907d39f61,
         type: 3}
@@ -15267,15 +15239,15 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 4972430253552937683, guid: 4afce748216d018499998044ee82f736,
+    - target: {fileID: 4972430253552937681, guid: 4afce748216d018499998044ee82f736,
         type: 3}
-      propertyPath: m_BodyType
-      value: 1
+      propertyPath: finalPos.x
+      value: 39
       objectReference: {fileID: 0}
-    - target: {fileID: 4972430253552937683, guid: 4afce748216d018499998044ee82f736,
+    - target: {fileID: 4972430253552937681, guid: 4afce748216d018499998044ee82f736,
         type: 3}
-      propertyPath: m_Constraints
-      value: 4
+      propertyPath: finalPos.y
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 4972430253552937686, guid: 4afce748216d018499998044ee82f736,
         type: 3}
@@ -15290,12 +15262,12 @@ PrefabInstance:
     - target: {fileID: 4972430253552937709, guid: 4afce748216d018499998044ee82f736,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 25
+      value: 39
       objectReference: {fileID: 0}
     - target: {fileID: 4972430253552937709, guid: 4afce748216d018499998044ee82f736,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 9
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4972430253552937709, guid: 4afce748216d018499998044ee82f736,
         type: 3}

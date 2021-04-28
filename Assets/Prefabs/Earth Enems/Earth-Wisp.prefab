@@ -204,6 +204,7 @@ MonoBehaviour:
   xMove: 0
   isFacingRight: 0
   isDead: 0
+  isHurt: 0
   wispRB: {fileID: 8425088104865406570}
   wispAnim: {fileID: 6206923220855293950}
   groundCheck: {fileID: 130434236318488354}
@@ -213,6 +214,8 @@ MonoBehaviour:
     m_Bits: 256
   wait: 2
   agroRange: 10
+  timeUntilFire: 0
+  fireRate: 1
   projectilePrefab: {fileID: 5129185337658052468, guid: c5ade77958f93a04d996c45cd4550821,
     type: 3}
 --- !u!1 &5638179614437728400

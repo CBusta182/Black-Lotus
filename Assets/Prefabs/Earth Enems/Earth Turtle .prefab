@@ -24,7 +24,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2065201357}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.25, y: -0.94, z: 0}
+  m_LocalPosition: {x: -1.25, y: -0.84, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2338664622792056304}
@@ -177,6 +177,7 @@ MonoBehaviour:
   xMove: 0
   isFacingRight: 0
   isDead: 0
+  isHurt: 0
   turtleRB: {fileID: 8133724986464084482}
   turtleAnim: {fileID: 7041065433216108271}
   groundCheck: {fileID: 2065201358}
@@ -185,7 +186,6 @@ MonoBehaviour:
     m_Bits: 256
   wait: 0
   agroRange: 8
-  spikeDamage: 10
 --- !u!61 &6478927363463750406
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -199,16 +199,16 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.25892448, y: -0.39841127}
+  m_Offset: {x: 0.25892448, y: -0.334624}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2.6666667, y: 2.6666667}
+    oldSize: {x: 2.4615386, y: 2.4615386}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.9817085, y: 1.5280237}
+  m_Size: {x: 1.9817085, y: 1.4004492}
   m_EdgeRadius: 0

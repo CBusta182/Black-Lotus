@@ -9,7 +9,7 @@ public class EarthTurtle : Enemy
     [SerializeField] RaycastHit2D edgeCheck;
     [SerializeField] Transform groundCheck;
     [SerializeField] LayerMask groundLayer;
-    [SerializeField] float wait = 1, agroRange;
+    [SerializeField] float wait = 0.1f, agroRange;
     void Start()
     {
         currentHealth = maxHealth;
