@@ -53,7 +53,7 @@ public class HealthController : MonoBehaviour
     }
     public void Death()
     {
-        SceneManager.LoadScene("TestLevel");
+        SceneManager.LoadScene("Level 1");
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
