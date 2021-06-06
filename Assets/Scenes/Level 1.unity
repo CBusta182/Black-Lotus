@@ -31230,6 +31230,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Earth-Wisp (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 1992923385812496230, guid: 3cc8ee5e2ed0b8a49a13a1bbd2776ac9,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5755757375946029274, guid: 3cc8ee5e2ed0b8a49a13a1bbd2776ac9,
         type: 3}
       propertyPath: m_RootOrder
@@ -59050,7 +59055,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1051817709}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 10.920406, y: 0.35001597, z: -10}
+  m_LocalPosition: {x: 9.505886, y: 0.35001263, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -59218,6 +59223,10 @@ PrefabInstance:
       propertyPath: slider
       value: 
       objectReference: {fileID: 721232713}
+    - target: {fileID: 240798744, guid: 8b1fca0945535974d9a72d1e8ee11439, type: 3}
+      propertyPath: knockbackForce
+      value: 800
+      objectReference: {fileID: 0}
     - target: {fileID: 3746413978072765664, guid: 8b1fca0945535974d9a72d1e8ee11439,
         type: 3}
       propertyPath: m_Name

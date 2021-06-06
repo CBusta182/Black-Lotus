@@ -21,14 +21,8 @@ public class HealthController : MonoBehaviour
     }
     void Update()
     {
-        if (isHurt)
-        {
-            anim.Play(pcc.stateStr + "Hurt");
-            knockBack();
-        }
-        if (isDead)
-        {
-            knockBack(); 
+        if (isHurt){
+            anim.Play(pcc.stateStr + " Hurt");
         }
         checkHealth();
     }
@@ -38,7 +32,7 @@ public class HealthController : MonoBehaviour
         {
             //knockBack();
             isDead = true;
-            anim.Play(pcc.stateStr + "Death");
+            anim.Play(pcc.stateStr + " Death");
             currentHealth = maxHealth;
             SetHealth(currentHealth);
         }
@@ -63,6 +57,17 @@ public class HealthController : MonoBehaviour
             if(currentHealth > 10) { isHurt = true; }
             currentHealth -= 10;
             SetHealth(currentHealth);
+
+            if(collision.rigidbody.position.x < rb.position.x)
+            {
+                rb.AddForce(new Vector2(knockbackForce, 0));
+                Debug.Log("Enem pos: " + collision.rigidbody.position + "Your pos: " + rb.position);
+            }
+            else if (collision.rigidbody.position.x > rb.position.x)
+            {
+                rb.AddForce(new Vector2(-knockbackForce, 0));
+                Debug.Log("Enem pos: " + collision.rigidbody.position + "Your pos: " + rb.position);
+            }
         }
          
     }

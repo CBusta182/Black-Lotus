@@ -17,10 +17,10 @@ public class PlayerController : MonoBehaviour
     private void Update()
     {
         if (Math.Abs(xMove) > 0.05f && isGrounded() && !CombatCheck()) {
-            playerAnimation.Play(pcc.stateStr + "Run"); 
+            playerAnimation.Play(pcc.stateStr + " Run"); 
         }
         else if (xMove == 0 && isGrounded() && !CombatCheck()) { 
-            playerAnimation.Play(pcc.stateStr + "Idle"); 
+            playerAnimation.Play(pcc.stateStr + " Idle"); 
         }
         if (!CombatCheck()) 
         {
@@ -50,7 +50,7 @@ public class PlayerController : MonoBehaviour
         }
         if (!isGrounded())
         {
-            playerAnimation.Play(pcc.stateStr + "Jump");
+            playerAnimation.Play(pcc.stateStr + " Jump");
         }
         player.velocity = new Vector2(xMove * moveSpeed, player.velocity.y);
     }

@@ -26,7 +26,7 @@ public class PlayerCombatController : MonoBehaviour
     void Start()
     {
         currentState = WeapState.FISTS;
-        Debug.Log(currentState.ToString()); 
+        stateStr = currentState.ToString(); 
         combatAnim = GetComponent<Animator>();
         pc = gameObject.GetComponent<PlayerController>();
     }
@@ -37,31 +37,27 @@ public class PlayerCombatController : MonoBehaviour
         {
             isAttacking = true; 
             Shoot();
-            //its not reading it as a string. need to create a string and update it for each function. 
-            combatAnim.Play(stateStr + "Attack 2");
+            combatAnim.Play(stateStr + " Attack 2" );
             timeUntilFire = Time.time + fireRate;
         }
         if (Input.GetKeyDown(KeyCode.X) && timeUntilLightAttack < Time.time)
         {
             isAttacking = true; 
             SpawnLightAttack();
-            combatAnim.Play(stateStr + "Attack 1");
+            combatAnim.Play(stateStr + " Attack 1");
             timeUntilLightAttack = Time.time + lightAttackCoolDown;
-            //make a combat active bool so the idle animation does not try to fight it 
-            //make a way for the attacks to link together
-             
         }
         if (Input.GetKeyDown(KeyCode.C) && timeUntlHeavyAttack < Time.time)
         {
+            isAttacking = true;
             SpawnHeavyAttack();
+            combatAnim.Play(stateStr + " Attack 3");
             timeUntlHeavyAttack = Time.time + heavyAttackCoolDown;
         }
         if (Input.GetKeyUp(KeyCode.Space))
         {
-            Debug.Log(stateStr + "before switch state"); 
             SwitchWeapons(currentState);
             stateStr = currentState.ToString();
-            Debug.Log(stateStr + " after switch state");
         }
     }
     private void Shoot()
