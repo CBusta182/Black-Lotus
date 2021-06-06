@@ -298,6 +298,9 @@ MonoBehaviour:
   whatIsDamageable:
     serializedVersion: 2
     m_Bits: 3072
+  isAttacking: 0
+  currentState: 0
+  stateStr: 
 --- !u!95 &778020797
 Animator:
   serializedVersion: 3
@@ -338,6 +341,7 @@ MonoBehaviour:
   isHurt: 0
   rb: {fileID: 3746413978072765665}
   pc: {fileID: 4755728577484566022}
+  pcc: {fileID: 8920414113784114191}
 --- !u!1 &3809904292435318402
 GameObject:
   m_ObjectHideFlags: 0

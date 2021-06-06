@@ -10,8 +10,9 @@ public class HealthController : MonoBehaviour
     public Slider slider;
     [SerializeField] Animator anim;
     public bool isDead, isHurt;
-    [SerializeField] Rigidbody2D rb;
-    [SerializeField] PlayerController pc; 
+    [SerializeField] private Rigidbody2D rb;
+    [SerializeField] private PlayerController pc;
+    [SerializeField] private PlayerCombatController pcc; 
     void Start()
     {
         isDead = false; 
@@ -22,7 +23,7 @@ public class HealthController : MonoBehaviour
     {
         if (isHurt)
         {
-            anim.Play("Fist Hurt");
+            anim.Play(pcc.stateStr + "Hurt");
             knockBack();
         }
         if (isDead)
@@ -37,7 +38,7 @@ public class HealthController : MonoBehaviour
         {
             //knockBack();
             isDead = true;
-            anim.Play("Fist Death");
+            anim.Play(pcc.stateStr + "Death");
             currentHealth = maxHealth;
             SetHealth(currentHealth);
         }

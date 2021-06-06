@@ -5,19 +5,23 @@ public class PlayerController : MonoBehaviour
 {
     public float moveSpeed;
     public Rigidbody2D player;
-    [SerializeField] HealthController hc;
-    [SerializeField] PlayerCombatController pcc;
+    [SerializeField] private HealthController hc;
+    [SerializeField] private PlayerCombatController pcc;
     private float xMove;
     public float jumpforce;
     public Transform feet;
-    [SerializeField] LayerMask groundLayer;
-    [SerializeField] Animator playerAnimation;
+    [SerializeField] public LayerMask groundLayer;
+    [SerializeField] public Animator playerAnimation;
     public bool isFacingRight = true;
-    public bool inCombat; 
+    public bool inCombat;
     private void Update()
     {
-        if (Math.Abs(xMove) > 0.05f && isGrounded() && !CombatCheck()) { playerAnimation.Play("Fist Run"); }
-        else if (xMove == 0 && isGrounded() && !CombatCheck()) { playerAnimation.Play("Fist Idle"); }
+        if (Math.Abs(xMove) > 0.05f && isGrounded() && !CombatCheck()) {
+            playerAnimation.Play(pcc.stateStr + "Run"); 
+        }
+        else if (xMove == 0 && isGrounded() && !CombatCheck()) { 
+            playerAnimation.Play(pcc.stateStr + "Idle"); 
+        }
         if (!CombatCheck()) 
         {
             HandleMovement();
@@ -46,13 +50,13 @@ public class PlayerController : MonoBehaviour
         }
         if (!isGrounded())
         {
-            playerAnimation.Play("Fist Jump");
+            playerAnimation.Play(pcc.stateStr + "Jump");
         }
         player.velocity = new Vector2(xMove * moveSpeed, player.velocity.y);
     }
     public bool CombatCheck()
     {
-        if(hc.isDead || hc.isHurt)
+        if (hc.isDead || hc.isHurt || pcc.isAttacking)
         {
             inCombat = true; 
         }
