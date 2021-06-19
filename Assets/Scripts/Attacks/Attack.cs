@@ -4,16 +4,16 @@ using UnityEngine;
 
 public class Attack : MonoBehaviour
 {
-    public float horizontalSpeed = 2f;
+    public float horizontalSpeed;
     [SerializeField] float despawnTime; 
-    [SerializeField] Rigidbody2D lightAttack;
+    [SerializeField] Rigidbody2D attack;
     private void Start()
     {
         StartCoroutine(DespawnObject());
     }
     private void FixedUpdate()
     {
-        lightAttack.velocity = transform.right * horizontalSpeed;
+        attack.velocity = transform.right * horizontalSpeed;
     }
 
     private void OnCollisionEnter2D(Collision2D collision)

@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class HealthController : MonoBehaviour
 {
-    public float maxHealth = 100, currentHealth, knockbackForce;
+    public float maxHealth = 100, currentHealth, kbForce, kbTime, timeUntilEndKB;
     public Slider slider;
     [SerializeField] Animator anim;
     public bool isDead, isHurt;
@@ -15,6 +15,7 @@ public class HealthController : MonoBehaviour
     [SerializeField] private PlayerCombatController pcc; 
     void Start()
     {
+        timeUntilEndKB = kbTime; 
         isDead = false; 
         currentHealth = maxHealth;
         SetMaxHealth(maxHealth);
@@ -48,39 +49,72 @@ public class HealthController : MonoBehaviour
     }
     public void Death()
     {
-        SceneManager.LoadScene("Level 1");
+        SceneManager.LoadScene("Earth Kingdom");
     }
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if ((collision.gameObject.CompareTag("Bullet") || collision.gameObject.CompareTag("Spike") || collision.gameObject.CompareTag("Attack")) && !isDead)
-        {
-            if(currentHealth > 10) { isHurt = true; }
-            currentHealth -= 10;
-            SetHealth(currentHealth);
-
-            if(collision.rigidbody.position.x < rb.position.x)
-            {
-                rb.AddForce(new Vector2(knockbackForce, 0));
-                Debug.Log("Enem pos: " + collision.rigidbody.position + "Your pos: " + rb.position);
-            }
-            else if (collision.rigidbody.position.x > rb.position.x)
-            {
-                rb.AddForce(new Vector2(-knockbackForce, 0));
-                Debug.Log("Enem pos: " + collision.rigidbody.position + "Your pos: " + rb.position);
-            }
-        }
+    //private void OnCollisionEnter2D(Collision2D collision)
+    //{
+    //    if ((collision.gameObject.CompareTag("Bullet") || collision.gameObject.CompareTag("Spike") || collision.gameObject.CompareTag("Attack")) && !isDead)
+    //    {
+    //        if (isHurt = true && collision.rigidbody.position.x < rb.position.x)
+    //        {
+    //            if (currentHealth > 10) { isHurt = true; }
+    //            currentHealth -= 10;
+    //            SetHealth(currentHealth);
+    //            timeUntilEndKB = kbTime; 
+    //            while (timeUntilEndKB < Time.time && isHurt)
+    //            {
+    //                if (collision.gameObject.CompareTag("Spike"))
+    //                {
+    //                    Debug.Log("on the right");
+    //                    rb.AddForce(new Vector2(kbForce * 100, 0));
+    //                    Debug.Log(collision.rigidbody.position.x > rb.position.x);
+    //                    timeUntilEndKB -= Time.time;
+    //                }
+    //                else
+    //                {
+    //                    rb.AddForce(new Vector2(kbForce, 0));
+    //                    timeUntilEndKB -= Time.time;
+    //                }
+ 
+    //                Debug.Log("player pos: " + rb.position + "enem pos: " + collision.rigidbody.position);
+    //            } 
+    //        }
+    //        else if (isHurt = true && collision.rigidbody.position.x > rb.position.x)
+    //        {
+    //            if (currentHealth > 10) { isHurt = true; }
+    //            currentHealth -= 10;
+    //            SetHealth(currentHealth);
+    //            timeUntilEndKB = kbTime;
+    //            while (timeUntilEndKB < Time.time && isHurt)
+    //            {
+    //                if (collision.gameObject.CompareTag("Spike"))
+    //                {
+    //                    Debug.Log("on the left");
+    //                    rb.AddForce(new Vector2(-kbForce * 100, 0));
+    //                    Debug.Log(collision.rigidbody.position.x > rb.position.x);
+    //                    timeUntilEndKB -= Time.time;
+    //                }
+    //                else
+    //                {
+    //                    rb.AddForce(new Vector2(-kbForce, 0));
+    //                    timeUntilEndKB -= Time.time;
+    //                }
+    //            }
+    //            //rb.AddForce(new Vector2(-knockbackForce, 0));
+    //        }
+    //    }
          
-    }
-    public void endKnockBack(){isHurt = false; }
+    //}
+    public void endKnockBack() => isHurt = false; 
     public void knockBack()
     {
         if (pc.isFacingRight)
         {
-            rb.AddForce(new Vector2(-knockbackForce, 0));
+            rb.AddForce(new Vector2(-kbForce, 0));
         }
         else
         {
-            rb.AddForce(new Vector2(knockbackForce, 0));
+            rb.AddForce(new Vector2(kbForce, 0));
         }
     }
 }

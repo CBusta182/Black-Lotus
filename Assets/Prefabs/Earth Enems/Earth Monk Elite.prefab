@@ -75,7 +75,7 @@ GameObject:
   - component: {fileID: 260693004}
   - component: {fileID: 357617122}
   m_Layer: 0
-  m_Name: Guard Earth Monk
+  m_Name: Earth Monk Elite
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -112,6 +112,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -135,7 +136,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 3829803571673714835, guid: 011d35bbd5d718944ae35f1634c7a0bb,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -145,7 +146,7 @@ SpriteRenderer:
   m_Size: {x: 1.0625, y: 2}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!61 &4111384456918972581
@@ -205,7 +206,7 @@ Animator:
   m_GameObject: {fileID: 4111384456918972584}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 49053337b20f5884fb2b569c447a1d63, type: 2}
+  m_Controller: {fileID: 0}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -233,6 +234,7 @@ MonoBehaviour:
   xMove: 0
   isFacingRight: 0
   isDead: 0
+  isHurt: 0
   agroRange: 10
   attackRange: 3
   coolDown: 0
